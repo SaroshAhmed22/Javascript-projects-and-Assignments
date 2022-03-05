@@ -1,0 +1,20 @@
+body{
+    text-align: center;
+}
+
+button {
+    width: 60px;
+    height: 60px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+input{
+    width: 245px;
+    height: 32px;
+}
+
+.clr{
+    width: 250px;
+    /* border: 1px solid red; */
+}
