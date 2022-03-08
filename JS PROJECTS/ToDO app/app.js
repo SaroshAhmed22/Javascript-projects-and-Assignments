@@ -16,13 +16,15 @@ function getItem() {
     myvalue.value=""
     // ! adding add Btn start
     let editBtn = document.createElement("button");
-    // console.log(editBtn)
     editBtn.setAttribute('id', 'edit');
-    editBtn.setAttribute('class', 'editBtn');
+    editBtn.setAttribute('class', 'editBtn',);
+    // editBtn.className='a b c'
     editBtn.setAttribute('onclick', 'editItem(this)');
     let editTextNode = document.createTextNode('Edit Item');
     editBtn.appendChild(editTextNode);
     node.appendChild(editBtn);
+    console.log(editBtn)
+
     // ! adding add Btn end
 
     // ! adding delete Btn start

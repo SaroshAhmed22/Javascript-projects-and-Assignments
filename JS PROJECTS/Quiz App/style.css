@@ -1,0 +1,23 @@
+fieldset{
+    border-radius: 20px;
+    margin-top: 30px;
+    
+}
+
+button{
+    border-radius: 13px;
+    margin-top: 20px;
+    width: 84px;
+    height: 40px;
+    color: white;
+    background-color: blueviolet;
+
+}
+
+
+.btn_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
