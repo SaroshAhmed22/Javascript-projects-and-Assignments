@@ -27,13 +27,11 @@ const calculateAnswer = () => {
         console.log(answer)
 
     }
-
     catch {
 
         let error = "E"
         result.value = error;
     }
-
 }
 
 
